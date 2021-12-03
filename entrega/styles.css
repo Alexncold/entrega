@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Viga&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li,
+a,
+button {
+  font-family: "Viga", cursive;
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+  color: rgba(229, 95, 0, 1);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.logo {
+  cursor: pointer;
+  height: 32px;
+  width: auto;
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: rgba(229, 95, 0, 0.8);
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgba(229, 95, 0, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: rgba(229, 95, 0, 0.8);
+}
+
+.bx-cart {
+  color: white;
+}
+
+.seccion__1 {
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-left: 30px;
+}
+
+h1 {
+  font-family: "Viga", cursive;
+  font-size: 6em;
+}
+
+h2 {
+  font-family: "Viga", cursive;
+}
+
+p {
+  font-family: "Fuzzy Bubbles", cursive;
+}
+
+.img__principal {
+  height: 90vh;
+  width: auto;
+}
+
+.motto {
+  margin-top: 130px;
+}
+
+.pedir {
+  margin-top: 2em;
+  color: white;
+  padding: 12px 40px 12px 40px;
+}
+
+.icon__main {
+  height: 70px;
+  width: auto;
+}
+
+.seccion__2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.col__1,
+.col__2 {
+  display: flex;
+  flex-direction: row;
+}
